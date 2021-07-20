@@ -1,6 +1,6 @@
 ## Disclaimer
 
-These two files correspond to the first task of the 6th program, i.e. "validating" a given expression. This code does not "evaluate" expressions.
+exec.y, exec.l => validating the given expression <br/> eval.l, eval.y => evaluating the given expression
 
 ## Commands to execute this on PuTTy
 
