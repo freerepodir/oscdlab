@@ -4,7 +4,7 @@ These two files correspond to the first task of the 6th program, i.e. "validatin
 
 ## Commands to execute this on PuTTy
 
-yacc -d exec.y
-lex exec.l
-gcc lex.yy.c
-./a.out
+yacc -d exec.y <br/>
+lex exec.l <br/>
+gcc lex.yy.c <br/>
+./a.out <br/>
