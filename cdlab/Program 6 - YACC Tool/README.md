@@ -6,5 +6,5 @@ exec.y, exec.l => validating the given expression <br/> eval.l, eval.y => evalua
 
 yacc -d exec.y <br/>
 lex exec.l <br/>
-gcc lex.yy.c <br/>
+gcc lex.yy.c y.tab.c ( after this step you may see a warning but ignore it and proceed to the next step ) <br/>
 ./a.out <br/>
