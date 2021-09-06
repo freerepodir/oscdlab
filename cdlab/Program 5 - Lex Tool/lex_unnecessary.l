@@ -1,7 +1,7 @@
 
 %{
 #include<stdio.h>
-int keywords = 0, indentifiers = 0, numbers = 0, operators = 0;
+int keywords = 0, identifiers = 0, numbers = 0, operators = 0;
 %}
 %%
 "int"|"void" {printf("keyword"); keywords++;}
@@ -15,7 +15,7 @@ int main(){
     yyin = fopen("program.txt", "r");
     yylex();
     printf("Keywords: %d\n", keywords);
-    printf("Indentifiers: %d\n", indentifiers);
+    printf("Identifiers: %d\n", identifiers);
     printf("Operators: %d\n", operators);
     printf("Numbers: %d\n", numbers);
 }
