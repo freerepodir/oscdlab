@@ -1,4 +1,4 @@
-/*Lexical Analyser*/
+
 
 #include<stdio.h>
 #include<string.h>
